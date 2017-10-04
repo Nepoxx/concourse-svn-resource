@@ -13,7 +13,7 @@ resource_types:
   type: docker-image
   source:
     repository: nepoxx/concourse-svn-resource
-    tag: alpha
+    tag: latest
 
 resources:
 - name: svn-code
