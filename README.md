@@ -1,5 +1,7 @@
 # concourse-svn-resource
-SVN access for Concourse CI.
+SVN access for Concourse CI. 
+
+I've forked https://github.com/RoboPhred/concourse-svn-resource and included fixes that were suggested, since that repo seems abandonned.
 
 Currently implemented in NodeJS, using the node:5 docker image.
 
@@ -10,7 +12,7 @@ resource_types:
 - name: svn-resource
   type: docker-image
   source:
-    repository: robophred/concourse-svn-resource
+    repository: nepoxx/concourse-svn-resource
     tag: alpha
 
 resources:
